@@ -1,0 +1,45 @@
+
+.list {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    list-style-type: none;
+    background-color: black;
+    flex-wrap: wrap;
+    height: 100px;
+    width:100%;
+    /* position: fixed; */
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    z-index: 10;
+    margin: auto;
+   margin: 0px 10px;
+}
+li{
+    margin-right: 20px;
+}
+
+a:hover {
+      opacity: 0.5;
+      transform-style: flat;
+      color: yellow;
+      
+      background-color: chartreuse;
+}
+
+.container{
+    height: 400px;
+    width: 100%;
+  
+    border-radius: 10px;
+    background-color: rgba(5, 191, 243, 0.797);
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 80vw;
+
+  
+   
+}
